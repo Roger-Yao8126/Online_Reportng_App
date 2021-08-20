@@ -1,19 +1,12 @@
-# Antra SEP java evaluation project
-yxj8126@gmail.com
+## An online reporting application 
+An Web application built a web application based on Java Spring Boot and Spring MVC.
+It allows users to upload text to generate pdf and excel report
 
-## Project setup 
-3 applications were run properly and TestSendMail and TestSNS were done.
+### Web application architecture
+![image 1](./ReportingSystemAsync.png)
 
-## What I added for the improvment 
-
-1.  Added delete feature; The records in database and report files are all deleted; Excel was created locally and PDF was created in AWS S3 bucket. Both are deleted according to their location.
-
-2. Updated Sync API to use a fixedSizeThreadPool(2)  for sending request concurrently to both services.
-
-3. Used a database instead of hashmap in the ExcelRepositoryImpl.
-
-4. Used AWS DynamoDB for both ExcelRepository and PDFRepository;   Use of MongoDB for both Repo were also tested successfully.
-
-## 4. Send your code to [Dawei Zhuang(dawei.zhuang@antra.com)](dawei.zhuang@antra.com) using Github/Gitlab. 
-Make sure there is README.MD to indicate what did you change/add to the project.
-
+### Features
+- Automated report generation using JasperReports (PDF) and Apache POI (Excel)
+- High performance and scalable data storage based on Hibernate, AWS DynamoDB and Amazon S3
+- Automated email notification to users based on AWS SNS/SQS/Lambda
+- Async Service API by AWS Queue

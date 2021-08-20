@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc62d4fa-cf8f-4252-851b-34427db17ade" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ReportingSystemAsync.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientService/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ClientService/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_original.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,6 +253,7 @@
       <workItem from="1628096394548" duration="791000" />
       <workItem from="1628399406467" duration="1383000" />
       <workItem from="1629134309979" duration="1853000" />
+      <workItem from="1629433574239" duration="1553000" />
     </task>
     <servers />
   </component>
