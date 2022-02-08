@@ -2,8 +2,6 @@
 An Web application built a web application based on Java Spring Boot and Spring MVC.
 It allows users to upload text to generate pdf and excel report
 
-### Web application architecture
-![image 1](./ReportingSystemAsync.png)
 
 ### Features
 - Automated report generation using JasperReports (PDF) and Apache POI (Excel)
